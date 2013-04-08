@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "description": "A CLI HUD-thing or something I don't know why are you asking me",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "node-term-ui": ""
   },
-  "repository": "",
+  "repository": "https://github.com/CarlQLange/cheese.git",
   "author": "Carl Lange",
   "license": "BSD"
 }
