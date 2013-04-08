@@ -1,3 +1,5 @@
+var _ = require('underscore');
+
 module.exports = function () {
     this.text = "";
 
@@ -10,6 +12,5 @@ module.exports = function () {
 	    .pos(pos.x, pos.y)
 	    .fg(TermUI.C.w)
 	    .out(this.text.toString())
-	    .end();
     };
 };

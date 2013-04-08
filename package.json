@@ -4,7 +4,8 @@
   "description": "A CLI HUD-thing or something I don't know why are you asking me",
   "main": "index.js",
   "dependencies": {
-    "node-term-ui": ""
+    "node-term-ui": "",
+    "underscore": "~1.4.4"
   },
   "repository": "https://github.com/CarlQLange/cheese.git",
   "author": "Carl Lange",
