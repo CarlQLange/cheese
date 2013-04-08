@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A CLI HUD-thing or something I don't know why are you asking me",
   "main": "index.js",
+  "bin": "index.js",
   "dependencies": {
     "node-term-ui": "",
     "underscore": "~1.4.4"
