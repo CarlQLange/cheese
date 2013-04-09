@@ -24,4 +24,5 @@ function refresh () {
 	widgets[widget].update();
 	widgets[widget].draw(TermUI, {x:0, y:parseInt(widget)+1});
     }
+    TermUI.hideCursor();
 }
